@@ -1,0 +1,40 @@
+[ {
+  "id" : "0e95d9ad-86a9-71b9-a472-cf1f0bb89ebc",
+  "name" : "testname",
+  "label" : "TestName",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "That Guy"
+}, {
+  "id" : "c14b4126-fac5-8d11-19e4-e37f6011ee6c",
+  "name" : "testimage",
+  "label" : "TestImage",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://f.hubspotusercontent20.net/hubfs/5995273/Jim-Madden1992-WebReady.jpg",
+    "alt" : "Jim-Madden1992-WebReady",
+    "loading" : "lazy",
+    "width" : 1260,
+    "height" : 839,
+    "max_width" : 1260,
+    "max_height" : 839
+  }
+}, {
+  "id" : "95c3a50c-21b0-ef67-f4e8-c6de0ebdd803",
+  "name" : "testrichtext",
+  "label" : "TestRichText",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<p>This is the test text.</p>"
+} ]
